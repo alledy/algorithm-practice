@@ -12,7 +12,10 @@
 - 또 다른 방법은 k개의 무더기에 1씩 갖다 놓은 다음에 나머지 n-k를 자유롭게 분배하는 것이다. n-k를 1무더기에 몰아줄 수도, k 무더기로 골고루 나눌 수도 있다. 즉 `p(n,k) = p(n-k,1) + p(n-k,2) + ... + p(n-k,k-1) + p(n-k,k)`
 
 ## 포인트
-- p(n,k)를 구할 수 있는 공식을 알아내서 재귀로 풀기 
+- p(n,k)를 구할 수 있는 공식을 알아내서 동적 프로그래밍으로 풀기
+  - 인풋이 최대 30이어서 연산이 엄청 크지 않아 일반 재귀로 해도 성공하지만 메모이제이션을 쓰면 더 빠르다.  
+  - 메모이제이션 쓸 때 list comprehension 으로 memo 리스트 초기화하지 말기 -> 빈 리스트 생성 후 for문으로 append 
+  - 함수 밖에서 memo 리스트 초기화하고 param으로 넣어주기
 
 ## 참고
 - [강쌤의 수학 블로그](https://m.blog.naver.com/PostView.nhn?blogId=vollollov&logNo=220989048062&proxyReferer=https%3A%2F%2Fwww.google.com%2F)

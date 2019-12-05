@@ -5,6 +5,7 @@
 
 |    Date    |           Difficulty           |                          Algorithm                          |  Lang  | Solve |
 | :--------: | :----------------------------: | :---------------------------------------------------------: | :----: | :---: |
+| 2019/12/05 |       :star::star::star:       |         [최대 자리곱](./goorm/solved/최대%20자리곱/README.md)         | Python |   ✅   |
 | 2019/12/04 |       :star::star::star:       | [Insertion Sort](./goorm/solved/Insertion%20Sort/README.md) | Python |   ✅   |
 | 2019/12/04 |       :star::star::star:       |  [Binary Search](./goorm/solved/Binary%20Search/README.md)  | Python |   ✅   |
 | 2019/12/03 |    :star::star::star::star:    |      [괄호 짝 맞추기](./goorm/solved/괄호%20짝%20맞추기/README.md)      | Python |   ✅   |

@@ -5,6 +5,7 @@
 
 |    Date    |           Difficulty           |                          Algorithm                          |  Lang  | Solve |
 | :--------: | :----------------------------: | :---------------------------------------------------------: | :----: | :---: |
+| 2019/12/06 |    :star::star::star::star:    |       [큐(Queue)](./goorm/not-yet/큐(Queue)/README.md)        | Python |   ✅   |
 | 2019/12/05 |       :star::star::star:       |       [징검다리 건너기](./goorm/solved/징검다리%20건너기/README.md)       | Python |   ✅   |
 | 2019/12/05 |       :star::star::star:       |         [최대 자리곱](./goorm/solved/최대%20자리곱/README.md)         | Python |   ✅   |
 | 2019/12/04 |       :star::star::star:       | [Insertion Sort](./goorm/solved/Insertion%20Sort/README.md) | Python |   ✅   |

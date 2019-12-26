@@ -8,15 +8,33 @@ m = int(user_input[1])
 account = input().split(' ')
 account = [0] + [int(i) for i in account]
 
-for i in range(m):
-	str_list = input().split(' ')
-	start_i = int(str_list[0])
-	end_i = int(str_list[1])
-	total = 0
-	for index in range(start_i, end_i+1):
-		total += account[index]
-	if total > 0:
-		print('+'+str(total))
-	else:
-		print(total)
-		
+memo = {}
+
+
+def print_account(acc, m):
+    for i in range(m):
+        str_list = input().split(' ')
+        start = int(str_list[0])
+        end = int(str_list[1])
+
+        answer = calc(memo, start, end, acc)
+
+        if answer > 0:
+            print('+'+str(answer))
+        else:
+            print(answer)
+
+
+def calc(memo, start, end, acc):
+    if (start, end) in memo:
+        return memo[(start, end)]
+
+    if start == end:
+        memo[(start, end)] = acc[start]
+        return memo[(start, end)]
+
+    memo[(start, end)] = calc(memo, start, end-1, acc) + acc[end]
+    return memo[(start, end)]
+
+
+print_account(account, m)

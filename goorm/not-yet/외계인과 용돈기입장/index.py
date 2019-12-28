@@ -29,11 +29,11 @@ def calc(memo, start, end, acc):
     if (start, end) in memo:
         return memo[(start, end)]
 
-    if start == end:
-        memo[(start, end)] = acc[start]
-        return memo[(start, end)]
+    memo[(start, start)] = acc[start]
 
-    memo[(start, end)] = calc(memo, start, end-1, acc) + acc[end]
+    for i in range(1, end-start+1):
+        memo[(start, start+i)] = memo[(start, start+i-1)] + acc[start+i]
+
     return memo[(start, end)]
 
 

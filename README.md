@@ -5,7 +5,7 @@
 
 |    Date    |           Difficulty           |                          Algorithm                          |  Lang  | Solve |
 | :--------: | :----------------------------: | :---------------------------------------------------------: | :----: | :---: |
-| 2019/12/25 |       :star::star:       |              [외계인과 용돈기입장](./goorm/not-yet/외계인과%20용돈기입장/README.md)              | Python |   ❌   |
+| 2019/12/30 |       :star::star:       |              [외계인과 용돈기입장](./goorm/solved/외계인과%20용돈기입장/README.md)              | Python |   ✅    |
 | 2019/12/06 |       :star::star::star:       |              [빨래](./goorm/solved/빨래/README.md)              | Python |   ✅   |
 | 2019/12/06 |    :star::star::star::star:    |       [큐(Queue)](./goorm/not-yet/큐(Queue)/README.md)        | Python |   ❌   |
 | 2019/12/05 |       :star::star::star:       |       [징검다리 건너기](./goorm/solved/징검다리%20건너기/README.md)       | Python |   ✅   |

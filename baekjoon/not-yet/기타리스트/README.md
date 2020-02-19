@@ -15,3 +15,6 @@
   - 연주할 수 있는 경우라면 어떻게 구할 수 있을까?
   
 ## [풀이](./index.py)
+
+## 참고
+[zerocho님 블로그](https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182)

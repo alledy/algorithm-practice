@@ -4,8 +4,9 @@
 
 |    Date    |   Subject    |                  Algorithm                  |  Lang  | Solve |
 | :--------: | :----------: | :-----------------------------------------: | :----: | :---: |
-| 2020/02/16 | 동적 프로그래밍(DP) |  [팰린드롬](./baekjoon/not-yet/팰린드롬/README.md)  | Python |   ❌   |
+| 2020/02/23 | 탐욕 알고리즘 | [회의실 배정](./baekjoon/solved/회의실%20배정/README.md) | Python |   ✅   |
 | 2020/02/18 | 동적 프로그래밍(DP) | [기타리스트](./baekjoon/not-yet/기타리스트/README.md) | Python |   ❌   |
+| 2020/02/16 | 동적 프로그래밍(DP) |  [팰린드롬](./baekjoon/not-yet/팰린드롬/README.md)  | Python |   ❌   |
 
 
 ## [Goorm](https://level.goorm.io/)

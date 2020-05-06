@@ -4,7 +4,9 @@
 
 |    Date    | Subject |                       Algorithm                       |  Lang  | Solve |
 | :--------: | :-----: | :---------------------------------------------------: | :----: | :---: |
-| 2020/05/05 | 탐욕 알고리즘 | [큰 수 만들기](./programmers/solved/큰%20수%20만들기/README.md) | Python |   ✅   |
+| 2020/05/06 |   재귀    |   [하노이의 탑](./programmers/solved/하노이의%20탑/README.md)   | Python |   ✅   |
+| 2020/05/05 |   탐욕    | [큰 수 만들기](./programmers/solved/큰%20수%20만들기/README.md) | Python |   ✅   |
+
 
 ## [leetcode](https://leetcode.com/)
 
@@ -14,11 +16,11 @@
 
 ## [BaekJoon](https://www.acmicpc.net/)
 
-|    Date    |   Subject    |                   Algorithm                    |  Lang  | Solve |
-| :--------: | :----------: | :--------------------------------------------: | :----: | :---: |
-| 2020/02/23 |   탐욕 알고리즘    | [회의실 배정](./baekjoon/solved/회의실%20배정/README.md) | Python |   ✅   |
-| 2020/02/18 | 동적 프로그래밍(DP) |  [기타리스트](./baekjoon/not-yet/기타리스트/README.md)   | Python |   ❌   |
-| 2020/02/16 | 동적 프로그래밍(DP) |   [팰린드롬](./baekjoon/not-yet/팰린드롬/README.md)    | Python |   ❌   |
+|    Date    | Subject |                   Algorithm                    |  Lang  | Solve |
+| :--------: | :-----: | :--------------------------------------------: | :----: | :---: |
+| 2020/02/23 |   탐욕    | [회의실 배정](./baekjoon/solved/회의실%20배정/README.md) | Python |   ✅   |
+| 2020/02/18 |   DP    |  [기타리스트](./baekjoon/not-yet/기타리스트/README.md)   | Python |   ❌   |
+| 2020/02/16 |   DP    |   [팰린드롬](./baekjoon/not-yet/팰린드롬/README.md)    | Python |   ❌   |
 
 ## [Goorm](https://level.goorm.io/)
 

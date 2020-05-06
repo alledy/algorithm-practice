@@ -4,6 +4,7 @@
 
 |    Date    | Subject |                       Algorithm                       |  Lang  | Solve |
 | :--------: | :-----: | :---------------------------------------------------: | :----: | :---: |
+| 2020/05/06 |   DP    |   [N으로 표현](./programmers/solved/N으로%20표현/README.md)   | Python |   ✅   |
 | 2020/05/06 |   재귀    |   [하노이의 탑](./programmers/solved/하노이의%20탑/README.md)   | Python |   ✅   |
 | 2020/05/05 |   탐욕    | [큰 수 만들기](./programmers/solved/큰%20수%20만들기/README.md) | Python |   ✅   |
 

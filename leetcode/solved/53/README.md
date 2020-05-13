@@ -1,4 +1,4 @@
-## [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+# [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 ## 풀이법
 - 유형: `DP`

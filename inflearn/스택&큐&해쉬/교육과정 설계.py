@@ -2,16 +2,16 @@
 # arr은 수업설계 str[]
 
 from collections import deque
-def judge(m, s):
+def judge(q, s):
     for x in s:
-        if x == m[0]:
-            m = m[1:]
-        if len(m) == 0:
+        if x == q[0]:
+            q.popleft()
+        if len(q) == 0:
             return "YES"
-    if len(m) > 0:
+    if len(q) > 0:
         return "NO"
     
 
 def curriculum(m, arr):
     for string in arr:
-        print(judge(m, string), end=' ')
+        print(judge(deque(list(m)), string), end=' ')

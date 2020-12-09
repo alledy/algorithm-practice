@@ -13,3 +13,17 @@ def multiset_permutation(picked, to_pick, n):
         multiset_permutation(picked, to_pick-1, n) 
         picked.pop()
     
+# n과 m은 주어짐
+def multiset_permutation2(picked, d):
+    if d == m:
+        print(picked)
+        return
+    else:
+        for i in range(1, n+1):
+            picked[d] = i
+            multiset_permutation2(picked, d+1)
+
+
+n, m = 3, 2
+initial_arr = [0 for x in range(m)]
+multiset_permutation2(initial_arr, 0)

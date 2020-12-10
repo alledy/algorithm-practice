@@ -29,6 +29,9 @@ def coin_exchange(s,d):
     # m - minimum count
     # s - sum
     global m
+    # Cut the edge
+    if d >= m:
+        return
     if s > v:
         return
     if s == v:

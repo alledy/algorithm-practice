@@ -64,7 +64,7 @@ def permutation2(arr,d,ch):
       go_down(arr,original)
       return
    for x in pool:
-      if ch[x] != 1:
+      if ch[x] != 1: # 중복 순열과의 차이점
          arr[d] = x
          ch[x] = 1
          permutation2(arr,d+1,ch)   
